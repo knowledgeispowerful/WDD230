@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assignment portal page for Emmanuel Koomson in CIT 230">
+  <title>CIT 230 Assignment Portal | Emmanuel Koomson | BYU-Idaho</title>
+
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/profile.jpg" alt="My Profile Picture">
+    <h1>Emmanuel Koomson</h1>
+  </header>
+
+  <main>
+    <h2>CIT 230: Assignment Portal</h2>
+
+    <ul>
+      <li>Lesson 02: <a href="lesson2/designprinciples.html">Design Principles</a></li>
+      <li>Lesson 03: <a href="lesson3.html">Assignment Link</a></li>
+      <li>Lesson 04: <a href="lesson4.html">Link &#124; Link</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>
+      &copy;<span id="new_Date"></span>
+      &#124; Emmanuel Koomson &#124; Ghana &#124; <a href="http://www.byui.edu/online">BYUI Online Learning</a>
+    </p>
+    <p>Last Updated: <script src="js/myjava.js"></script></p>
+  </footer>
+
+  <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById("new_Date").textContent = currentYear;
+  </script>
+</body>
+</html>
+
