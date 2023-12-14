@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        
+        <h1>Form Build</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+    
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Registration Form</h2>
+        
+        <!-- Registration Form -->
+        <form action="record.html" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required>
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+            
+            <label for="pageRating">Page Rating:</label>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="updateRating(this.value)">
+            <span id="ratingValue">1</span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Include your course home page's footer here -->
+        <p>&copy; 2023 | Emmannuel Koomson</p>
+    </footer>
+
+    <script>
+        // JavaScript to update the displayed rating value
+        function updateRating(value) {
+            document.getElementById('ratingValue').textContent = value;
+        }
+    </script>
+</body>
+</html>
