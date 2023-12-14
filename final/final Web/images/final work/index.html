@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Final Work | Home | Emmanuel Koomson</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="author" content="Christian Soldevilla">
+        <meta name="description" content="Final Project for WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    </head>
+    <body>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/heroSmall.jpg">
+                <source media="(max-width: 600px)" srcset="images/heroMedium.jpg">
+                <source media="(max-width: 800px)" srcset="images/heroLarge.jpg">
+                <img src="images/heroLarge.jpg" alt="Tourists enjoying in the beach">
+            </picture>
+            <img class="logo" src="images/logo.png" alt="logo"><a class="btn" href="#">Make a Reservation</a>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" id="hamBtn"><i class="fas fa-bars"></i> Menu</a>
+                </li>
+                <li><a href="index.html" class="active">Home</a>
+                </li>
+                <li><a href="aboutus.html">About Us</a>
+                </li>
+                <li><a href="freshpage.html">Fresh page</a>
+                </li>
+                <li><a href="tours.html">Tours</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1 style="text-align: center;">Welcome to Bountiful Foods</h1>
+            <section class="type-fruit">
+                <div style="padding-top: 17px; margin-right: 4px;">
+                    <picture style="padding-right: 0px; margin-right: -67px;">
+                        <source media="(max-width: 799px)" srcset="images/hondaPCX280w.jpg">
+                        <source media="(min-width: 800px)" srcset="images/hondaPCX400w.jpg">
+                        <img src="images/hondaPCX400w.jpg" alt="picture of Honda PCX150" style="padding-top: 7px; padding-right: 0px;">
+                    </picture>
+                </div>
+                <h3 style="font-weight: normal; padding-top: 6px; padding-left: 46px;">At Bountiful Foods, we are passionate about bringing you the finest selection of organic, locally grown foods, directly from the bountiful farms of Carlsbad, California, and beyond. As a small business with a big heart, we strive to nourish both our local community and the coastal visitors with fresh and healthy food options, making healthy eating a delightful and convenient experience.We understand the fast-paced world we live in, and that's why we've made it easy for you to access our wholesome offerings. Whether you prefer to visit our inviting storefront in Carlsbad, order by phone, or explore our user-friendly website, we're here to cater to your needs. Our dedicated team is ready to assist you with personalized service, ensuring your experience with us is nothing short of delightful.</h3>
+                <h3 style="font-weight: normal; padding-top: 6px; padding-left: 46px;">Bountiful Foods is more than just a place to find fresh produce and delicious fruit drinks. It's a community of health-conscious individuals, farmers, and food enthusiasts who share a passion for embracing the goodness of nature. Join our journey towards a healthier lifestyle and be part of the movement to support local agriculture and sustainable living.
+At Bountiful Foods, we invite you to savor the taste of health, experience the joy of organic bounty, and indulge in the convenience of our coastal food adventure. Nourishing coastlines, naturally - that's our promise to you! .</h3>
+            </section>
+        </section>
+        <section class="type-rentals">
+            <h2>Fruit That We Offer</h2>
+            <div>
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images/hondaPCX280w.jpg">
+                    <source media="(min-width: 800px)" srcset="images/hondaPCX400w.jpg">
+                    <img src="images/hondaPCX400w.jpg" alt="picture of Honda PCX150">
+                </picture>
+                <h3>Orange</h3>
+                <ul class="list">
+</ul>
+            </div>
+            <div>
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images/hondaPioneer280w.jpg">
+                    <source media="(min-width: 800px)" srcset="images/hondaPioneer400w.jpg">
+                    <img src="images/hondaPioneer400w.jpg" alt="picture of Pioneer 1000">
+                </picture>
+                <h3>Beetroot</h3>
+                <ul class="list">
+</ul>
+            </div>
+            <div>
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images/jeepWrangler280w.jpg">
+                    <source media="(min-width: 800px)" srcset="images/jeepWrangler400w.jpg">
+                    <img src="images/jeepWrangler400w.jpg" alt="picture of 4 door Jeep Wrangler">
+                </picture>
+                <h3>Maize</h3>
+                <ul class="list">
+</ul>
+            </div>
+        </section>
+        <section class="weather">
+            <h2>Weather in Carlsbad, California</h2>
+            <div>
+                <img src=" " alt="Icon of the current weather" id="iconWeather">
+                <div>
+                    <p>Temperature: <span id="temp"></span>°F</p>
+                    <p>Description: <span id="curr"></span></p>
+                    <p>Humidity: <span id="hum"></span>%</p>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th><span id="nameDay1"></span></th>
+                    <th><span id="nameDay2"></span></th>
+                    <th><span id="nameDay3"></span></th>
+                    <th><span id="nameDay4"></span></th>
+                    <th><span id="nameDay5"></span></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src=" " alt="image forecast" id="imgForecast2">
+                    </td>
+                    <td>
+                        <img src=" " alt="image forecast" id="imgForecast10">
+                    </td>
+                    <td>
+                        <img src=" " alt="image forecast" id="imgForecast18">
+                    </td>
+                    <td>
+                        <img src=" " alt="image forecast" id="imgForecast26">
+                    </td>
+                    <td>
+                        <img src=" " alt="image forecast" id="imgForecast34">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span id="tempForecast2"></span>°F</td>
+                    <td><span id="tempForecast10"></span>°F</td>
+                    <td><span id="tempForecast18"></span>°F</td>
+                    <td><span id="tempForecast26"></span>°F</td>
+                    <td><span id="tempForecast34"></span>°F</td>
+                </tr>
+            </table>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10228.156086988924!2d-117.33908047285769!3d33.15903682874362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1690252675165!5m2!1sen!2sgh" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <address> <ul>
+                        <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="#">Phone: 999-999-999</a>
+                        </li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">Email: contact@boutifulfood.com</a>
+                        </li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">Adress:  23341,Carlsbad-California</a>
+                        </li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">Adress:  23341,Carlsbad-California</a>
+                        </li>
+                    </ul> </address>
+                <ul class="social-list">
+                    <li><a href="#" title="Facebook"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+                    </li>
+                    <li><a href="#" title="Instagram"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                    </li>
+                    <li><a href="#" title="Twitter"> <i class="fa fa-twitter-square" aria-hidden="true"></i> </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><i class="far fa-copyright"></i> Emmanuel Koomson 2023</p>
+        <ul>
+                <li><a href="#" id="hamBtn"><i class="fas fa-bars"></i> Menu</a>
+                </li>
+                <li><a href="index.html" class="active">Home</a>
+                </li>
+                <li><a href="aboutus.html">About Us</a>
+                </li>
+                <li><a href="freshpage.html">Fresh page</a>
+                </li>
+                <li><a href="tours.html">Tours</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li>
+        </ul>
+        <p>Last Updated: <span id="updatedDate"></span></p>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/home.js"></script>
+    <script src="https://kit.fontawesome.com/2bdc0b59cd.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+      google: {
+        families: ['Roboto:300,400,700']
+      }
+    });
+  </script>
+</body>

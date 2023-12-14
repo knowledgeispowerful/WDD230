@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cozumelscoots</title>
+        <meta name="description" content="another whether site" />
+        <meta name="author" content="Emmanuel Koomson" />
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Noto+Sans+HK:wght@400;700&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/53224be697.js" crossorigin="anonymous"></script>
+    
+    </head>
+
+<body>
+    
+    <div id="banner">
+        <p>Summer Special</p>
+    </div>
+    <div class="phone">
+        <a><i class="fa fa-phone" href="#"></i> Call Now</a>
+    </div>
+
+
+    <header class="clearfix">
+        <div>
+            <img src="images/lgLogo.png" alt="logo">
+        </div>
+        <div>
+            <a class='ham' href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        </div>
+
+    </header>
+
+    <div id="navWrapper">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li class="active"><a href="reservations.html">Reservations</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="mainWrapper">
+        <main>
+            <h1>Reservations</h1>
+
+            <Section class="payicons">
+                <a href="https://pay.google.com/about/" target="_blank"><i class="fab fa-google-pay"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-credit-card"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-paypal"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-money-bill-alt"></i></i></a>
+            </Section>
+
+            <div class="col2">
+                <h3>Requierments</h3>
+                <p> A $50 security deposit to confirm reservations.
+                    <br> 24 hour prior notification for reservations rate.
+                    <br> A valid drivers license in hand at time of rental.
+                    <br> No one under 12 years of age are allowed to ride on the scooters.
+                    <br> Payment via Google Pay, cash, credit card, debit card, or PayPal.                   
+                </p>
+                <h3>Services</h3>
+                <p> Unlimited mileage.
+                    <br> Liability insurance is free of charge.
+                    <br> Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+                </p>
+                <h3>Additional Information</h3>
+                <p> Fuel charge not included.
+                    <br> Rentals may be returned to either Cozumelscoots location.
+                </p>
+            </div>
+
+            <div class="reservationform">
+                <form method="get" action="confirmation.html">
+                    <div class="section">
+                        <h2>Reservation Info</h2>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="date">Date</label>
+                            </div>
+                            <div class="col-75">
+                                <input type=date id="date" name="date">
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="type">Time</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="type" name="type">
+                                    <option value="morning">Half Day</option>
+                                    <option value="afternoon">Full Day</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="type">Type</label>
+                            </div>
+                            <div class="col-75">
+                                    <input type="checkbox" id="Metro" name="type" value="Metro">
+                                    <label for="Metro">Honda Metro Scooter</label><br>
+                                    <input type="checkbox" id="Dio" name="type" value="Dio">
+                                    <label for="Dio">Honda Dio Scooter</label><br>
+                                    <input type="checkbox" id="PCX150" name="type" value="PCX150">
+                                    <label for="PCX150">Honda PCX150 Scooter</label><br>
+                                    <input type="checkbox" id="Pioneer" name="type" value="Pioneer">
+                                    <label for="Pioneer">Honda Pioneer ATV</label><br>
+                                    <input type="checkbox" id="4door" name="type" value="4door">
+                                    <label for="4door">Jeep Wrangler - 4 door with a/c</label><br>
+                                    <input type="checkbox" id="2door" name="type" value="2door">
+                                    <label for="2door">Jeep Wrangler - 2 door</label>                                               
+                            </div>
+                        </div>
+    
+    
+                    </div>
+    
+                    <div class="section">
+                        <h2>User Info</h2>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Full Name *</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="fullname" placeholder="Enter full name" required>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email">Email Address *</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="phone">Phone Number *</label>
+                            </div>
+                            <div class="col-75">
+                                <input type=tel id="phone" name="phonenumber" placeholder="111-222-3333" required>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Country</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="country" name="country" placeholder="Enter your home country">
+                            </div>
+                        </div>
+                        <p>* informtion is required</p>
+                    </div>
+    
+                    <div class="section">
+                        <h2>Additional Info</h2>
+    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="cruise">Cruise Line</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="radio" id="cruise1" name="cruise1" value="Bike">
+                                <label for="cruise1"> Carnival</label><br>
+                                <input type="radio" id="cruise2" name="cruise2" value="Car">
+                                <label for="cruise2"> Norwegian</label><br>
+                                <input type="radio" id="cruise3" name="cruise3" value="Boat">
+                                <label for="cruise3"> Royal Caribbean</label><br>
+                                <input type="radio" id="cruise3" name="cruise3" value="Boat">
+                                <label for="cruise3"> Celebrity</label>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="comments">Comments</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="comments" name="comments" placeholder="any additional comments..."
+                                    style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="clearfix">
+                            <input type="submit" value="Reserve Now">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            
+
+
+            <Section class="socialicons">
+                <a href="https://twiter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://blogger.com/" target="_blank"><i class="fab fa-blogger-b"></i></a>
+                <a href="index.html"><i class="fa fa-motorcycle" aria-hidden="true"></i></a>
+            </Section>
+
+        </main>
+    </div>
+
+    <div id="footerWrapper">
+        <footer>
+            <span id="day"></span>, <span id="date"></span> | &copy; Emmanuel Koomson <p>Created my free logo at <a
+                    href="https://logomakr.com/" target="_blank">LogoMakr.com</a> </p>
+        </footer>
+    </div>
+
+    <script src="js/javascript.js"></script>
+    <!-- <script src="js/rental.js"></script> -->
+
+</body>

@@ -1,0 +1,166 @@
+{
+	"rentals": [
+		{
+			"name": "Honda Metropolitan",
+			"photo": "rentals/hondaMetropolitan.jpg",
+			"type": "Honda Motor Scooters",
+			"description": "49cc",
+			"people": 1,
+			"reservation": [
+				{
+					"time": "Half Day",
+					"price": "$20"
+				},
+				{
+					"time": "Full Day",
+					"price": "$30"
+				}
+			],
+			"walkin": [
+				{
+					"time": "Half Day",
+					"price": "$25"
+				},
+				{
+					"time": "Full Day",
+					"price": "$35"
+				}
+			]
+		},
+		{
+			"name": "Honda Dio",
+			"photo": "rentals//hondadio.jpg",
+			"type": "Honda Motor Scooters",
+			"description": "110cc",
+			"people": 2,
+			"reservation": [
+				{
+					"time": "Half Day",
+					"price": "$30"
+				},
+				{
+					"time": "Full Day",
+					"price": "$40"
+				}
+			],
+			"walkin": [
+				{
+					"time": "Half Day",
+					"price": "$35"
+				},
+				{
+					"time": "Full Day",
+					"price": "$45"
+				}
+			]
+		},
+		{
+			"name": "Honda PCX150",
+			"photo": "rentals/Hondapcx.jpg",
+			"type": "Honda Motor Scooters",
+			"description": "149cc",
+			"people": 2,
+			"reservation": [
+				{
+					"time": "Half Day",
+					"price": "$40"
+				},
+				{
+					"time": "Full Day",
+					"price": "$50"
+				}
+			],
+			"walkin": [
+				{
+					"time": "Half Day",
+					"price": "$45"
+				},
+				{
+					"time": "Full Day",
+					"price": "$55"
+				}
+			]
+		},
+		{
+			"name": "Honda Pioneer",
+			"photo": "rentals/hondapioneer.jpg",
+			"type": "ATV Side-by-Side",
+			"description": "1000",
+			"people": 4,
+			"reservation": [
+				{
+					"time": "Half Day",
+					"price": "$50"
+				},
+				{
+					"time": "Full Day",
+					"price": "$70"
+				}
+			],
+			"walkin": [
+				{
+					"time": "Half Day",
+					"price": "$60"
+				},
+				{
+					"time": "Full Day",
+					"price": "$80"
+				}
+			]
+		},
+		{
+			"name": "4-door Jeep Wrangler",
+			"photo": "rentals/jeepwragler4.jpg",
+			"type": "Jeep Rentals",
+			"description": "manual with A/C",
+			"people": 5,
+			"reservation": [
+				{
+					"time": "Half Day",
+					"price": "$70"
+				},
+				{
+					"time": "Full Day",
+					"price": "$100"
+				}
+			],
+			"walkin": [
+				{
+					"time": "Half Day",
+					"price": "$85"
+				},
+				{
+					"time": "Full Day",
+					"price": "$125"
+				}
+			]
+		},
+		{
+			"name": "2-door Jeep Wrangler",
+			"photo": "rentals/jeepwragler2.jpg",
+			"type": "Jeep Rentals",
+			"description": "open air - manual",
+			"people": 4,
+			"reservation": [
+				{
+					"time": "Half Day",
+					"price": "$60"
+				},
+				{
+					"time": "Full Day",
+					"price": "$85"
+				}
+			],
+			"walkin": [
+				{
+					"time": "Half Day",
+					"price": "$70"
+				},
+				{
+					"time": "Full Day",
+					"price": "$90"
+				}
+			]
+		}
+	]
+}
