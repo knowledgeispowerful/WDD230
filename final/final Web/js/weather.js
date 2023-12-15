@@ -1,7 +1,3 @@
-// Cozumel, MX, town ID: 3530103
-// API key : 0e4d31ccfabb22eece86dc1453da7105
-//api.openweathermap.org/data/2.5/weather?id=3530103&appid=0e4d31ccfabb22eece86dc1453da7105
-
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=3530103&appid=0e4d31ccfabb22eece86dc1453da7105&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
