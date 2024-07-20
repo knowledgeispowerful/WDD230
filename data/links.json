@@ -6,6 +6,11 @@
                 {
                     "url":"https://knowledgeispowerful.github.io/wdd230/lesson01/holygrail.html",
                     "title":"Holy Grail"
+                },
+
+                {
+                    "url":"https://knowledgeispowerful.github.io/wdd230/",
+                    "title":"Course Home Page"
                 }
             ]},
         {
@@ -18,6 +23,11 @@
                 },
 
                 {
+                    "url":"https://knowledgeispowerful.github.io/wdd230/",
+                    "title":" Update Home Page"
+                },
+                
+                {
                     "url":"https://knowledgeispowerful.github.io/wdd230/lesson02/design-principles.html",
                     "title":"Design Principles"
                 }
@@ -25,6 +35,11 @@
         {
             "lesson": "03", 
             "links": [
+                {
+                    "url":"https://knowledgeispowerful.github.io/wdd230/",
+                    "title":"Course Portal Home Page Build"
+                },
+
                 {
                     "url":"https://knowledgeispowerful.github.io/wdd230/lesson03/chamber-site-plan.html",
                     "title":"Chamber-site-plan"
@@ -52,6 +67,11 @@
             "links": [
             
                 {
+                    "url":"https://knowledgeispowerful.github.io/wdd230/",
+                    "title":"Course Portal Home Page Enhancement"
+                },
+
+                {
                     "url":"https://knowledgeispowerful.github.io/wdd230/lesson06/index.html",
                     "title":"Chamber Home - Responsive Images"
                 }
@@ -59,9 +79,15 @@
         {
             "lesson": "07", 
             "links": [
+
+                {
+                    "url":"https://knowledgeispowerful.github.io/wdd230/",
+                    "title":"Home Page Enhancement"
+                },
+
                 {
                     "url":"https://knowledgeispowerful.github.io/wdd230/lesson07/discover.html",
-                    "title":"discover"
+                    "title":"Discover"
                 }
 
             ]},
@@ -82,7 +108,7 @@
         {
             "lesson": "09", 
             "links": [
-               {
+                {
                     "url":"https://knowledgeispowerful.github.io/wdd230/",
                     "title":"JSON"
                 },
@@ -96,13 +122,19 @@
                     "url":"https://knowledgeispowerful.github.io/wdd230/lesson09/directory.html",
                     "title":"Chamber Directory Page"
                 }
+
             ]},
         {
             "lesson": "10", 
             "links": [
                 {
-                    "url":"https://knowledgeispowerful.github.io/wdd230/lesson10/weather.html",
-                    "title":"Weather"
+                    "url":"https://knowledgeispowerful.github.io/wdd230/lesson10/index.html",
+                    "title":"Chamber Home Page Enhancement"
+                },
+
+                {
+                 "url":"https://knowledgeispowerful.github.io/wdd230/",
+                    "title":"Weather Api"
                 }
             ]}
     ]  
