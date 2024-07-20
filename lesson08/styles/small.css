@@ -1,0 +1,57 @@
+@media (max-width: 400px){
+   * {
+       margin: 0;
+       padding: 0;
+   }
+   
+    body{
+        place-items: center;
+        margin: 0;
+    }
+    header {
+        justify-content: space-around;
+        height: 200px;
+        flex-direction: row-reverse;
+        
+    }
+    header img {
+        height: 40vw;
+        width: 40vw;
+        margin-left: 100px;
+    }
+    
+    header h1 {
+        font-size: 50px;
+        margin-right: 100px;
+    }
+    
+  .temple {
+        width: 100%;
+        height: auto;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navigation a{
+        display: none;
+    }
+    
+    .open a {
+        display: block; 
+     }
+
+    #menu::before{
+        content: "☰";
+        font-size: 30px;
+    }
+    #menu.open::before{
+        content: "X";
+        font-size: 30px;
+    }
+
+
+ 
+}
