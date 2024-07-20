@@ -1,5 +1,5 @@
 const baseURL = "https://knowledgeispowerful.github.io/wdd230/";
-const linksURL = "https://knowledgeispowerful.github.io/wdd230//wdd230/data/links.json";
+const linksURL = "https://knowledgeispowerful.github.io/wdd230/data/links.json";
 
 async function getLinkData() {
     const response = await fetch(linksURL);
