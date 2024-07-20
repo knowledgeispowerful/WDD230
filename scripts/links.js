@@ -1,34 +1,39 @@
 const baseURL = "https://knowledgeispowerful/wdd230/";
 const linksURL = "https://knowledgeispowerful/wdd230/data/links.json";
 
-async function getLinks() {
+async function getLinkData() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    displayLinks(data);
+    displayLinks(data.lessons);
 }
 
-
 const displayLinks = (weeks) => {
+    const linksList = document.querySelector(".links-box");
 
-    const cardElement = document.querySelector(".card");
+    weeks.forEach ((week) => {
+        let currentItem = document.createElement("li");
+        currentItem.textContent = `Week ${week.lesson}: `;
 
-    weeks.lesson.forEach((week) => {
-        let card = document.createElement("div");
+        let list = document.createElement("span");
 
-        let lesson = document.createElement("h3");
-        lesson.textContent = ` Lesson ${week.lesson} `;
-        card.appendChild(lesson);
-        
-        week.links.forEach((link) => {
-            let anchor = document.createElement("a");
-            anchor.href = link.url.startsWith('http') ? link.url : baseURL + link.url;
-            anchor.textContent = ` - ${link.title} `;
-            lesson.appendChild(anchor)
-        });
-        
-        cardElement.appendChild(card)
-    });
+        week.links.forEach((link, index) => {
+            let linkAnchor = document.createElement("a");
 
-}   
+            linkAnchor.href = link.url;
+            linkAnchor.textContent = link.title;
 
-getLinks();
+            if (index < week.links.length - 1) {
+                linkAnchor.textContent +=", ";
+            }
+
+            list.appendChild(linkAnchor)
+        })
+
+        currentItem.appendChild(list);
+        linksList.appendChild(currentItem);
+
+    })
+    
+}
+
+getLinkData();
