@@ -82,7 +82,7 @@
         {
             "lesson": "09", 
             "links": [
-                {
+               {
                     "url":"https://knowledgeispowerful.github.io/wdd230/",
                     "title":"JSON"
                 },
@@ -90,6 +90,11 @@
                 {
                     "url":"https://knowledgeispowerful.github.io/wdd230/lesson09/prophet.html",
                     "title":"Prophets"
+                },
+
+                {
+                    "url":"https://knowledgeispowerful.github.io/wdd230/lesson09/directory.html",
+                    "title":"Chamber Directory Page"
                 }
             ]},
         {
